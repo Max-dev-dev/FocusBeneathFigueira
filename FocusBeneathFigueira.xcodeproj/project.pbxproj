@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F13B37C2D50AF630053953E /* FocusBeneathFigueiraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B37B2D50AF630053953E /* FocusBeneathFigueiraApp.swift */; };
+		8F13B37E2D50AF630053953E /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B37D2D50AF630053953E /* TaskView.swift */; };
+		8F13B3802D50AF640053953E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F13B37F2D50AF640053953E /* Assets.xcassets */; };
+		8F13B3832D50AF640053953E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F13B3822D50AF640053953E /* Preview Assets.xcassets */; };
+		8F13B38E2D50B0530053953E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F13B38D2D50B0530053953E /* Launch Screen.storyboard */; };
+		8F13B3902D50B5800053953E /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B38F2D50B5800053953E /* LoaderView.swift */; };
+		8F13B3922D50B6950053953E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3912D50B6950053953E /* OnboardingView.swift */; };
+		8F13B3942D50D86D0053953E /* Righteous-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F13B3932D50D86D0053953E /* Righteous-Regular.ttf */; };
+		8F13B3972D50DA4F0053953E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3962D50DA4F0053953E /* SettingsView.swift */; };
+		8F13B3992D50DD360053953E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3982D50DD360053953E /* TimerView.swift */; };
+		8F13B39B2D50E44F0053953E /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B39A2D50E44F0053953E /* ArticlesView.swift */; };
+		8F13B39D2D50E5990053953E /* ArticleSomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B39C2D50E5990053953E /* ArticleSomeView.swift */; };
+		8F13B39F2D50E6590053953E /* ArticleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B39E2D50E6590053953E /* ArticleType.swift */; };
+		8F13B3A22D50E6CB0053953E /* ArticleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3A12D50E6CB0053953E /* ArticleCardView.swift */; };
+		8F13B3A52D50FF020053953E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3A42D50FF020053953E /* Task.swift */; };
+		8F13B3A72D5109FD0053953E /* GameStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3A62D5109FD0053953E /* GameStartView.swift */; };
+		8F13B3A92D510D190053953E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3A82D510D190053953E /* GameView.swift */; };
+		8F13B3AC2D511F720053953E /* ChooseTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3AB2D511F720053953E /* ChooseTreeView.swift */; };
+		8F13B3AE2D5121010053953E /* TreeSelectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3AD2D5121010053953E /* TreeSelectionManager.swift */; };
+		8F13B3B02D5121AF0053953E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3AF2D5121AF0053953E /* MainView.swift */; };
+		8F13B3B22D51256F0053953E /* timersound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F13B3B12D51256F0053953E /* timersound.wav */; };
+		8F13B3B42D5126C90053953E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3B32D5126C90053953E /* AudioManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F13B3782D50AF630053953E /* FocusBeneathFigueira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusBeneathFigueira.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F13B37B2D50AF630053953E /* FocusBeneathFigueiraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusBeneathFigueiraApp.swift; sourceTree = "<group>"; };
+		8F13B37D2D50AF630053953E /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		8F13B37F2D50AF640053953E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F13B3822D50AF640053953E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F13B38D2D50B0530053953E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8F13B38F2D50B5800053953E /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		8F13B3912D50B6950053953E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8F13B3932D50D86D0053953E /* Righteous-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Righteous-Regular.ttf"; sourceTree = "<group>"; };
+		8F13B3952D50D8800053953E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8F13B3962D50DA4F0053953E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8F13B3982D50DD360053953E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		8F13B39A2D50E44F0053953E /* ArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
+		8F13B39C2D50E5990053953E /* ArticleSomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSomeView.swift; sourceTree = "<group>"; };
+		8F13B39E2D50E6590053953E /* ArticleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleType.swift; sourceTree = "<group>"; };
+		8F13B3A12D50E6CB0053953E /* ArticleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCardView.swift; sourceTree = "<group>"; };
+		8F13B3A42D50FF020053953E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		8F13B3A62D5109FD0053953E /* GameStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStartView.swift; sourceTree = "<group>"; };
+		8F13B3A82D510D190053953E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8F13B3AB2D511F720053953E /* ChooseTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTreeView.swift; sourceTree = "<group>"; };
+		8F13B3AD2D5121010053953E /* TreeSelectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeSelectionManager.swift; sourceTree = "<group>"; };
+		8F13B3AF2D5121AF0053953E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8F13B3B12D51256F0053953E /* timersound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = timersound.wav; sourceTree = "<group>"; };
+		8F13B3B32D5126C90053953E /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F13B3752D50AF630053953E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F13B36F2D50AF630053953E = {
+			isa = PBXGroup;
+			children = (
+				8F13B37A2D50AF630053953E /* FocusBeneathFigueira */,
+				8F13B3792D50AF630053953E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F13B3792D50AF630053953E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F13B3782D50AF630053953E /* FocusBeneathFigueira.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F13B37A2D50AF630053953E /* FocusBeneathFigueira */ = {
+			isa = PBXGroup;
+			children = (
+				8F13B3952D50D8800053953E /* Info.plist */,
+				8F13B3892D50AF980053953E /* App */,
+				8F13B38B2D50AFC00053953E /* Views */,
+				8F13B38A2D50AFAA0053953E /* Resources */,
+				8F13B3812D50AF640053953E /* Preview Content */,
+			);
+			path = FocusBeneathFigueira;
+			sourceTree = "<group>";
+		};
+		8F13B3812D50AF640053953E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8F13B3822D50AF640053953E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F13B3892D50AF980053953E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8F13B37B2D50AF630053953E /* FocusBeneathFigueiraApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8F13B38A2D50AFAA0053953E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F13B3B12D51256F0053953E /* timersound.wav */,
+				8F13B3932D50D86D0053953E /* Righteous-Regular.ttf */,
+				8F13B37F2D50AF640053953E /* Assets.xcassets */,
+				8F13B38D2D50B0530053953E /* Launch Screen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8F13B38B2D50AFC00053953E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F13B3A32D50FEEC0053953E /* Task */,
+				8F13B38F2D50B5800053953E /* LoaderView.swift */,
+				8F13B3912D50B6950053953E /* OnboardingView.swift */,
+				8F13B3AA2D511F5C0053953E /* Choose */,
+				8F13B3982D50DD360053953E /* TimerView.swift */,
+				8F13B3A02D50E6B70053953E /* Articles */,
+				8F13B3A62D5109FD0053953E /* GameStartView.swift */,
+				8F13B3A82D510D190053953E /* GameView.swift */,
+				8F13B3AF2D5121AF0053953E /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F13B3A02D50E6B70053953E /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				8F13B39E2D50E6590053953E /* ArticleType.swift */,
+				8F13B39A2D50E44F0053953E /* ArticlesView.swift */,
+				8F13B39C2D50E5990053953E /* ArticleSomeView.swift */,
+				8F13B3A12D50E6CB0053953E /* ArticleCardView.swift */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		8F13B3A32D50FEEC0053953E /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				8F13B37D2D50AF630053953E /* TaskView.swift */,
+				8F13B3A42D50FF020053953E /* Task.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		8F13B3AA2D511F5C0053953E /* Choose */ = {
+			isa = PBXGroup;
+			children = (
+				8F13B3962D50DA4F0053953E /* SettingsView.swift */,
+				8F13B3AB2D511F720053953E /* ChooseTreeView.swift */,
+				8F13B3AD2D5121010053953E /* TreeSelectionManager.swift */,
+				8F13B3B32D5126C90053953E /* AudioManager.swift */,
+			);
+			path = Choose;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F13B3772D50AF630053953E /* FocusBeneathFigueira */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F13B3862D50AF640053953E /* Build configuration list for PBXNativeTarget "FocusBeneathFigueira" */;
+			buildPhases = (
+				8F13B3742D50AF630053953E /* Sources */,
+				8F13B3752D50AF630053953E /* Frameworks */,
+				8F13B3762D50AF630053953E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusBeneathFigueira;
+			productName = FocusBeneathFigueira;
+			productReference = 8F13B3782D50AF630053953E /* FocusBeneathFigueira.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F13B3702D50AF630053953E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8F13B3772D50AF630053953E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8F13B3732D50AF630053953E /* Build configuration list for PBXProject "FocusBeneathFigueira" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F13B36F2D50AF630053953E;
+			productRefGroup = 8F13B3792D50AF630053953E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F13B3772D50AF630053953E /* FocusBeneathFigueira */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F13B3762D50AF630053953E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F13B38E2D50B0530053953E /* Launch Screen.storyboard in Resources */,
+				8F13B3832D50AF640053953E /* Preview Assets.xcassets in Resources */,
+				8F13B3B22D51256F0053953E /* timersound.wav in Resources */,
+				8F13B3942D50D86D0053953E /* Righteous-Regular.ttf in Resources */,
+				8F13B3802D50AF640053953E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F13B3742D50AF630053953E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F13B3992D50DD360053953E /* TimerView.swift in Sources */,
+				8F13B39F2D50E6590053953E /* ArticleType.swift in Sources */,
+				8F13B3972D50DA4F0053953E /* SettingsView.swift in Sources */,
+				8F13B3B42D5126C90053953E /* AudioManager.swift in Sources */,
+				8F13B39B2D50E44F0053953E /* ArticlesView.swift in Sources */,
+				8F13B3A52D50FF020053953E /* Task.swift in Sources */,
+				8F13B3A72D5109FD0053953E /* GameStartView.swift in Sources */,
+				8F13B39D2D50E5990053953E /* ArticleSomeView.swift in Sources */,
+				8F13B3AC2D511F720053953E /* ChooseTreeView.swift in Sources */,
+				8F13B37E2D50AF630053953E /* TaskView.swift in Sources */,
+				8F13B3B02D5121AF0053953E /* MainView.swift in Sources */,
+				8F13B3922D50B6950053953E /* OnboardingView.swift in Sources */,
+				8F13B3AE2D5121010053953E /* TreeSelectionManager.swift in Sources */,
+				8F13B3A22D50E6CB0053953E /* ArticleCardView.swift in Sources */,
+				8F13B37C2D50AF630053953E /* FocusBeneathFigueiraApp.swift in Sources */,
+				8F13B3A92D510D190053953E /* GameView.swift in Sources */,
+				8F13B3902D50B5800053953E /* LoaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8F13B3842D50AF640053953E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F13B3852D50AF640053953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F13B3872D50AF640053953E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusBeneathFigueira/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FocusBeneathFigueira/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Focus Beneath Figueira";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.beneath.figueira;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8F13B3882D50AF640053953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusBeneathFigueira/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FocusBeneathFigueira/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Focus Beneath Figueira";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.beneath.figueira;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F13B3732D50AF630053953E /* Build configuration list for PBXProject "FocusBeneathFigueira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F13B3842D50AF640053953E /* Debug */,
+				8F13B3852D50AF640053953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F13B3862D50AF640053953E /* Build configuration list for PBXNativeTarget "FocusBeneathFigueira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F13B3872D50AF640053953E /* Debug */,
+				8F13B3882D50AF640053953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F13B3702D50AF630053953E /* Project object */;
+}

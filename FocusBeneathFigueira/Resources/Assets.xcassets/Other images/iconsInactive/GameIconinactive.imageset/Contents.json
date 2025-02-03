@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "GameIconinactive.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

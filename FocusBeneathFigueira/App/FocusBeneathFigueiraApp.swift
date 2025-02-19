@@ -132,7 +132,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, AppsFlyerLibDelegate {
     
     func isToEarly() -> Bool {
         let currentDate = Date()
-        let comparisonDateComponents = DateComponents(year: 2025, month: 2, day: 16, hour: 13, minute: 22)
+        let comparisonDateComponents = DateComponents(year: 2025, month: 2, day: 21, hour: 9, minute: 44)
         let comparisonDate = Calendar.current.date(from: comparisonDateComponents)!
         if currentDate < comparisonDate {
             return true

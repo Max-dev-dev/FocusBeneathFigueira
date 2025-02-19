@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12B7DC362D660C40008F0BCF /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 12B7DC352D660C40008F0BCF /* AppsFlyerLib-Static */; };
+		12B7DC392D660C50008F0BCF /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 12B7DC382D660C50008F0BCF /* OneSignalExtension */; };
+		12B7DC3B2D660C50008F0BCF /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 12B7DC3A2D660C50008F0BCF /* OneSignalFramework */; };
+		12B7DC3D2D660C50008F0BCF /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 12B7DC3C2D660C50008F0BCF /* OneSignalInAppMessages */; };
+		12B7DC3F2D660D72008F0BCF /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 12B7DC3E2D660D72008F0BCF /* InfoPlist.xcstrings */; };
+		12B7DC412D660DE4008F0BCF /* WasfsafafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7DC402D660DE4008F0BCF /* WasfsafafView.swift */; };
+		12B7DC562D6615EC008F0BCF /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 12B7DC4F2D6615EC008F0BCF /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8F13B37C2D50AF630053953E /* FocusBeneathFigueiraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B37B2D50AF630053953E /* FocusBeneathFigueiraApp.swift */; };
 		8F13B37E2D50AF630053953E /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B37D2D50AF630053953E /* TaskView.swift */; };
 		8F13B3802D50AF640053953E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F13B37F2D50AF640053953E /* Assets.xcassets */; };
@@ -31,7 +38,35 @@
 		8F13B3B42D5126C90053953E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13B3B32D5126C90053953E /* AudioManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		12B7DC542D6615EC008F0BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F13B3702D50AF630053953E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12B7DC4E2D6615EC008F0BCF;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12B7DC5B2D6615EC008F0BCF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				12B7DC562D6615EC008F0BCF /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		12B7DC3E2D660D72008F0BCF /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		12B7DC402D660DE4008F0BCF /* WasfsafafView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasfsafafView.swift; sourceTree = "<group>"; };
+		12B7DC4A2D6615CE008F0BCF /* FocusBeneathFigueira.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocusBeneathFigueira.entitlements; sourceTree = "<group>"; };
+		12B7DC4F2D6615EC008F0BCF /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F13B3782D50AF630053953E /* FocusBeneathFigueira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusBeneathFigueira.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F13B37B2D50AF630053953E /* FocusBeneathFigueiraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusBeneathFigueiraApp.swift; sourceTree = "<group>"; };
 		8F13B37D2D50AF630053953E /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
@@ -58,11 +93,36 @@
 		8F13B3B32D5126C90053953E /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		12B7DC572D6615EC008F0BCF /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 12B7DC4E2D6615EC008F0BCF /* OneSignalNotificationServiceExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		12B7DC502D6615EC008F0BCF /* OneSignalNotificationServiceExtension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (12B7DC572D6615EC008F0BCF /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = OneSignalNotificationServiceExtension; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		12B7DC4C2D6615EC008F0BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F13B3752D50AF630053953E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B7DC362D660C40008F0BCF /* AppsFlyerLib-Static in Frameworks */,
+				12B7DC3B2D660C50008F0BCF /* OneSignalFramework in Frameworks */,
+				12B7DC3D2D660C50008F0BCF /* OneSignalInAppMessages in Frameworks */,
+				12B7DC392D660C50008F0BCF /* OneSignalExtension in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +132,9 @@
 		8F13B36F2D50AF630053953E = {
 			isa = PBXGroup;
 			children = (
+				12B7DC3E2D660D72008F0BCF /* InfoPlist.xcstrings */,
 				8F13B37A2D50AF630053953E /* FocusBeneathFigueira */,
+				12B7DC502D6615EC008F0BCF /* OneSignalNotificationServiceExtension */,
 				8F13B3792D50AF630053953E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				8F13B3782D50AF630053953E /* FocusBeneathFigueira.app */,
+				12B7DC4F2D6615EC008F0BCF /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +151,7 @@
 		8F13B37A2D50AF630053953E /* FocusBeneathFigueira */ = {
 			isa = PBXGroup;
 			children = (
+				12B7DC4A2D6615CE008F0BCF /* FocusBeneathFigueira.entitlements */,
 				8F13B3952D50D8800053953E /* Info.plist */,
 				8F13B3892D50AF980053953E /* App */,
 				8F13B38B2D50AFC00053953E /* Views */,
@@ -109,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				8F13B37B2D50AF630053953E /* FocusBeneathFigueiraApp.swift */,
+				12B7DC402D660DE4008F0BCF /* WasfsafafView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -174,6 +239,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		12B7DC4E2D6615EC008F0BCF /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B7DC582D6615EC008F0BCF /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				12B7DC4B2D6615EC008F0BCF /* Sources */,
+				12B7DC4C2D6615EC008F0BCF /* Frameworks */,
+				12B7DC4D2D6615EC008F0BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				12B7DC502D6615EC008F0BCF /* OneSignalNotificationServiceExtension */,
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 12B7DC4F2D6615EC008F0BCF /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		8F13B3772D50AF630053953E /* FocusBeneathFigueira */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F13B3862D50AF640053953E /* Build configuration list for PBXNativeTarget "FocusBeneathFigueira" */;
@@ -181,10 +268,12 @@
 				8F13B3742D50AF630053953E /* Sources */,
 				8F13B3752D50AF630053953E /* Frameworks */,
 				8F13B3762D50AF630053953E /* Resources */,
+				12B7DC5B2D6615EC008F0BCF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				12B7DC552D6615EC008F0BCF /* PBXTargetDependency */,
 			);
 			name = FocusBeneathFigueira;
 			productName = FocusBeneathFigueira;
@@ -198,9 +287,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					12B7DC4E2D6615EC008F0BCF = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					8F13B3772D50AF630053953E = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -213,22 +305,41 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-PT",
+				"pt-BR",
+				de,
+				fr,
+				it,
+				es,
 			);
 			mainGroup = 8F13B36F2D50AF630053953E;
+			packageReferences = (
+				12B7DC342D660C40008F0BCF /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+				12B7DC372D660C50008F0BCF /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
 			productRefGroup = 8F13B3792D50AF630053953E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8F13B3772D50AF630053953E /* FocusBeneathFigueira */,
+				12B7DC4E2D6615EC008F0BCF /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		12B7DC4D2D6615EC008F0BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F13B3762D50AF630053953E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B7DC3F2D660D72008F0BCF /* InfoPlist.xcstrings in Resources */,
 				8F13B38E2D50B0530053953E /* Launch Screen.storyboard in Resources */,
 				8F13B3832D50AF640053953E /* Preview Assets.xcassets in Resources */,
 				8F13B3B22D51256F0053953E /* timersound.wav in Resources */,
@@ -240,6 +351,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		12B7DC4B2D6615EC008F0BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F13B3742D50AF630053953E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +365,7 @@
 				8F13B3992D50DD360053953E /* TimerView.swift in Sources */,
 				8F13B39F2D50E6590053953E /* ArticleType.swift in Sources */,
 				8F13B3972D50DA4F0053953E /* SettingsView.swift in Sources */,
+				12B7DC412D660DE4008F0BCF /* WasfsafafView.swift in Sources */,
 				8F13B3B42D5126C90053953E /* AudioManager.swift in Sources */,
 				8F13B39B2D50E44F0053953E /* ArticlesView.swift in Sources */,
 				8F13B3A52D50FF020053953E /* Task.swift in Sources */,
@@ -266,7 +385,73 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		12B7DC552D6615EC008F0BCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12B7DC4E2D6615EC008F0BCF /* OneSignalNotificationServiceExtension */;
+			targetProxy = 12B7DC542D6615EC008F0BCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		12B7DC592D6615EC008F0BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.beneath.figueira.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		12B7DC5A2D6615EC008F0BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.beneath.figueira.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		8F13B3842D50AF640053953E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -326,6 +511,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -382,6 +568,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -391,25 +578,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FocusBeneathFigueira/FocusBeneathFigueira.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"FocusBeneathFigueira/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FocusBeneathFigueira/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Focus Beneath Figueira";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App need access to your camera to set your profile picture.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App need access to your microphone to set your profile picture.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App need access to your photos to set your profile picture.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.focus.beneath.figueira;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -427,25 +619,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FocusBeneathFigueira/FocusBeneathFigueira.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"FocusBeneathFigueira/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FocusBeneathFigueira/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Focus Beneath Figueira";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App need access to your camera to set your profile picture.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App need access to your microphone to set your profile picture.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App need access to your photos to set your profile picture.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.focus.beneath.figueira;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -461,6 +658,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		12B7DC582D6615EC008F0BCF /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B7DC592D6615EC008F0BCF /* Debug */,
+				12B7DC5A2D6615EC008F0BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8F13B3732D50AF630053953E /* Build configuration list for PBXProject "FocusBeneathFigueira" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -480,6 +686,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12B7DC342D660C40008F0BCF /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.16.1;
+			};
+		};
+		12B7DC372D660C50008F0BCF /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12B7DC352D660C40008F0BCF /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12B7DC342D660C40008F0BCF /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		12B7DC382D660C50008F0BCF /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12B7DC372D660C50008F0BCF /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		12B7DC3A2D660C50008F0BCF /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12B7DC372D660C50008F0BCF /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		12B7DC3C2D660C50008F0BCF /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12B7DC372D660C50008F0BCF /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8F13B3702D50AF630053953E /* Project object */;
 }

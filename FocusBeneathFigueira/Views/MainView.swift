@@ -6,38 +6,34 @@ enum Tab {
 
 struct MainView: View {
     @State private var selectedTab: Tab = .task
-    @State var loading = true
+    @State var loading = false
     
     var body: some View {
-        if loading {
-            LoaderView(close: {loading = false})
-        } else {
-            NavigationView {
-                VStack {
-                    Group {
-                        switch selectedTab {
-                        case .task:
-                            TaskView()
-                        case .articles:
-                            ArticlesView()
-                        case .timer:
-                            TimerView()
-                        case .game:
-                            GameStartView()
-                        case .settings:
-                            SettingsView()
-                        }
+        NavigationView {
+            VStack {
+                Group {
+                    switch selectedTab {
+                    case .task:
+                        TaskView()
+                    case .articles:
+                        ArticlesView()
+                    case .timer:
+                        TimerView()
+                    case .game:
+                        GameStartView()
+                    case .settings:
+                        SettingsView()
                     }
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    
-                    CustomTabBar(selectedTab: $selectedTab)
                 }
-                .background {
-                    Image(.backBlackScreen)
-                        .resizable()
-                        .ignoresSafeArea()
-                        .scaledToFill()
-                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                
+                CustomTabBar(selectedTab: $selectedTab)
+            }
+            .background {
+                Image(.backBlackScreen)
+                    .resizable()
+                    .ignoresSafeArea()
+                    .scaledToFill()
             }
         }
     }
